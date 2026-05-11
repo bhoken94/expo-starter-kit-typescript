@@ -25,7 +25,7 @@ const OpeningScene = (props: OpeningSceneProps = {}) => {
       <ViroText text="Physics Demo" scale={[0.5, 0.5, 0.5]} position={[0, 0, -2]} style={styles.textStyle} onClick={() => navigateToScene(PhysicsDemo)} />
       <ViroText text="No Plane" scale={[0.5, 0.5, 0.5]} position={[0, -0.5, -2]} style={styles.textStyle} onClick={() => navigateToScene(NoPlaneScene)} />
       <ViroText text="Shaders" scale={[0.5, 0.5, 0.5]} position={[0, -1, -2]} style={styles.textStyle} onClick={() => navigateToScene(ShadersScene)} />
-      <ViroText text="Geospatial Anchors" scale={[0.5, 0.5, 0.5]} position={[0, -1.5, -2]} style={styles.textStyle} onClick={() => navigateToScene(GeospatialAnchorScene)} />
+      {/* <ViroText text="Geospatial Anchors" scale={[0.5, 0.5, 0.5]} position={[0, -1.5, -2]} style={styles.textStyle} onClick={() => navigateToScene(GeospatialAnchorScene)} /> */}
       <ViroText text="Video Scene" scale={[0.5, 0.5, 0.5]} position={[0, -1.5, -2]} style={styles.textStyle} onClick={() => navigateToScene(VideoScene)} />
     </ViroARScene>
   );
